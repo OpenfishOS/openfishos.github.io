@@ -1,124 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-        <meta name="description" content="OpenfishOS">
-        <meta property="og:description" content="OpenfishOS" />
-        <title>OpenfishOS</title>
-        <link rel="icon" type="image/x-icon" href="assets/logo.png">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075431923852009"
-crossorigin="anonymous"></script>
-    </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-    <body class="backgroundImage">
-
-        <!--nav bar-->
-        <div style="width: 100%;">
-            <!--logo-->
-            <a href="/" class="site-avatar"><img src="assets/logo.png" alt="OpenfishOS logo" width="200"></a>
-            <!--
-            <a href="https://" style="float: right;text-decoration: none; color: rgba(0, 0, 0, 1); font-size: 24px; font-weight: 300;">About</a>
-            <span style="float: right;margin-right: 16px;">&nbsp;&nbsp;</span>
-            <a href="https://" style="float: right;text-decoration: none; color: rgba(0, 0, 0, 1); font-size: 24px; font-weight: 300;">Community</a>
-            <span style="float: right;margin-right: 16px;">&nbsp;&nbsp;</span>
-            <a href="https://" style="float: right;text-decoration: none; color: rgba(0, 0, 0, 1); font-size: 24px; font-weight: 300;">Document</a>
-            -->
-        </div>
-
-        <div id="textArea">
-           <!--text-->
-            <div id="text">
-            <h1 style="color: rgba(74, 69, 69, 1);
-            font-size: 85px;
-            font-weight: 300;
-            margin: 0px;">Clear Mindedness</h1>
-            <h1 style="color: #00A0DF;
-            letter-spacing: 1px;
-            font-size: 85px;
-            font-weight: 800;
-            margin-top: 0px;
-            margin-bottom: 30px;">Handy</h1>
-            <input type="button" href="#" class="btnStyle" onclick="window.location.href = '/download'" value="Try it"</input>
-            </div>
-            <!--demo image-->
-            <div id="image">
-                <img src="assets/home.png" alt="OpenfishOS demo" width="650px">
-            </div>
-        </div>   
-        <!--Description-->
-        <div id="discriptionArea">
-            <!--Description text-->
-            <div id="textDescription">
-            <h1 style="font:40px bold;text-align: center;">Smoother</h1>
-            <h1 style="font:24px normal; color: rgba(105, 105, 105, 1); text-align: center;margin-bottom: 100px;">We pay attention to design, user experience, and every detail</h1>
-            </div>
-
-            <div style="width: 100%;display: flex;justify-content: center;justify-content: space-between;">
-            <!--Description cards-->
-            <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), -5px 10px 24px rgba(0, 0, 0, 0.1), -22px 38px 44px rgba(0, 0, 0, 0.09), -49px 86px 59px rgba(0, 0, 0, 0.05), -86px 153px 70px rgba(0, 0, 0, 0.01), 135px 239px 77px rgba(0, 0, 0, 0);">
-            <img src="assets/icon1@2x.png" alt="icon1" style="width: 64px;
+---
+layout: page
+---
+<div id=" textArea">
+  <h1 style="
+	font-weight: bold; 
+	text-align: center;">
+    <span style="
+	font-size: 85px;  
+	font-weight: 300;
+	background: linear-gradient(to left, #06b9ff 0%, #5459ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	">OpenfishOS</span>
+  </h1>
+  <div class="head-img">
+    <img style="display: block; margin-left: auto; margin-right: auto;" src="assets/home.png" alt="" width="50%" height="100%" />
+  </div>
+  <h1 style="font-weight: bold; text-align: center;">
+    <span style="font-size: 85px; color: rgba(74, 69, 69, 1); font-weight: 300;">Clear Mindedness</span>
+  </h1>
+  <h1 style="text-align: center;">
+    <span style="font-size: 85px; color: #00A0DF; font-weight: 800;">Handy</span>
+  </h1>
+  <div style="text-align: center; padding-bottom: 20px;">
+    <input type="button" href="#" class="btnStyle" onclick="window.location.href = 'https://'" value="Try it" </input>
+  </div>
+</div>
+<div id="discriptionArea">
+  <!--Description text-->
+  <div id="textDescription">
+    <h1 style="font:40px bold;text-align: center;">Smoother</h1>
+    <h1 style="font:24px normal; color: rgba(105, 105, 105, 1); text-align: center;margin-bottom: 100px;">We pay attention to design, user experience, and every detail</h1>
+  </div>
+  <div style="width: 100%;display: flex;justify-content: center;justify-content: space-around; flex-wrap: wrap; margin-bottom: 100px">
+    <!--Description cards-->
+    <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), -5px 10px 24px rgba(0, 0, 0, 0.1), -22px 38px 44px rgba(0, 0, 0, 0.09), -49px 86px 59px rgba(0, 0, 0, 0.05), -86px 153px 70px rgba(0, 0, 0, 0.01), 135px 239px 77px rgba(0, 0, 0, 0);">
+      <img src="assets/icon1@2x.png" alt="icon1" style="width: 64px;
             height: 64px;margin-top: 50px;">
-            <h1 style="color: rgba(0, 0, 0, 1);
+      <h1 style="color: rgba(0, 0, 0, 1);
             font-size: 30px;
+            text-align: center;
             font-weight: 500;">Pay attention to design</h1>
-            <h1 style="color: rgba(105, 105, 105, 1);
+      <h1 style="color: rgba(105, 105, 105, 1);
             font-size: 20px;
+            text-align: center;
             font-weight: 300;
             margin: 17px;">Every system application is carefully designed to be more pleasing to the eye</h1>
-            </div>
-
-            <!--Description cards-->
-            <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 10px 22px rgba(0, 0, 0, 0.1), 0px 41px 41px rgba(0, 0, 0, 0.09), 0px 91px 55px rgba(0, 0, 0, 0.05), 0px 162px 65px rgba(0, 0, 0, 0.01), 0px 254px 71px rgba(0, 0, 0, 0);">
-            <img src="assets/icon2@2x.png" alt="icon1" style="width: 64px;
+    </div>
+    <!--Description cards-->
+    <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 10px 22px rgba(0, 0, 0, 0.1), 0px 41px 41px rgba(0, 0, 0, 0.09), 0px 91px 55px rgba(0, 0, 0, 0.05), 0px 162px 65px rgba(0, 0, 0, 0.01), 0px 254px 71px rgba(0, 0, 0, 0);">
+      <img src="assets/icon2@2x.png" alt="icon1" style="width: 64px;
             height: 64px;margin-top: 50px;">
-            <h1 style="color: rgba(0, 0, 0, 1);
+      <h1 style="color: rgba(0, 0, 0, 1);
             font-size: 30px;
+            text-align: center;
             font-weight: 500;">Attention to detail</h1>
-            <h1 style="color: rgba(105, 105, 105, 1);
+      <h1 style="color: rgba(105, 105, 105, 1);
             font-size: 20px;
+            text-align: center;
             font-weight: 300;
             margin: 17px;">From design to product launch, every detail has been strictly checked, just to make it more comfortable</h1>
-            </div>
-
-            <!--Description cards-->
-            <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 6px 10px 26px rgba(0, 0, 0, 0.1), 25px 41px 48px rgba(0, 0, 0, 0.09), 57px 91px 65px rgba(0, 0, 0, 0.05), 101px 162px 77px rgba(0, 0, 0, 0.01), 158px 254px 84px rgba(0, 0, 0, 0);">
-            <img src="assets/icon3@2x.png" alt="icon1" style="width: 64px;
+    </div>
+    <!--Description cards-->
+    <div class="discriptionCard" style="box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 6px 10px 26px rgba(0, 0, 0, 0.1), 25px 41px 48px rgba(0, 0, 0, 0.09), 57px 91px 65px rgba(0, 0, 0, 0.05), 101px 162px 77px rgba(0, 0, 0, 0.01), 158px 254px 84px rgba(0, 0, 0, 0);">
+      <img src="assets/icon3@2x.png" alt="icon1" style="width: 64px;
             height: 64px;margin-top: 50px;">
-            <h1 style="color: rgba(0, 0, 0, 1);
+      <h1 style="color: rgba(0, 0, 0, 1);
             font-size: 30px;
+            text-align: center;
             font-weight: 500;">Respect users</h1>
-            <h1 style="color: rgba(105, 105, 105, 1);
+      <h1 style="color: rgba(105, 105, 105, 1);
             font-size: 20px;
+            text-align: center;
             font-weight: 300;
             margin: 17px;">We respect every user at all times, just to be more comfortable</h1>
-            </div>
-           </div>
-       </div>
-
-
-        <!--Explaination-->
-        <div id="explainationArea" style="margin: 0px;">
-            <!--Why text area-->
-            <div id="reasonArea">
-                <h2 style="color: rgba(0, 0, 0, 1);
+    </div>
+  </div>
+</div>
+<br>
+<div id="explainationArea" style="margin: 0px; margin-bottom: 100px">
+  <!--Why text area-->
+  <div id="reasonArea">
+    <h2 style="color: rgba(0, 0, 0, 1);
                 font-size: 32px;
                 font-weight: 500;
-                margin-bottom: 6px;">Why<br>Choose OpenfishOS?</h2>
-                <p style="color: rgba(130, 130, 130, 1);
+                margin-bottom: 6px;">Why <br>Choose OpenfishOS? </h2>
+    <p style="color: rgba(130, 130, 130, 1);
                 font-size: 20px;
                 font-weight: 300;
                 margin: 0px;">High-value and careful design brings all users an unprecedented new experience</p>
-            </div>
-
-            <div id="privacyCard"></div>
-            <div id="lyricsCard"></div>
-            <div id="degitalHealthyCard"></div>
-            <div id="assistantFuncCard"></div>
-        </div>
-    </body>
-</html>
+  </div>
+  <div id="privacyCard"></div>
+  <div id="lyricsCard"></div>
+  <div id="degitalHealthyCard"></div>
+  <div id="assistantFuncCard"></div>
+</div>

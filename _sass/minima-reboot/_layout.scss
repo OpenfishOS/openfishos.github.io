@@ -1,0 +1,147 @@
+$layout-color-border: #e9ecef !default;
+$layout-color-background: #fdfdfd !default;
+$layout-color-syntax-highlighting-background: #f8f9fa !default;
+$layout-responsive-nav-cutoff: 768px !default;
+
+body {
+  background-color: $layout-color-background;
+}
+
+#nav-header {
+  border-top: 5px solid !important;
+  border-bottom: 1px solid $layout-color-border !important;
+}
+
+#nav-container {
+  height: 3.5rem;
+}
+
+#nav-menu-container {
+  @media (max-width: $layout-responsive-nav-cutoff - 1) {
+    position: absolute;
+    z-index: 100;
+    top: 0.4375rem;
+    right: 1rem;
+    border: 1px solid $layout-color-border;
+    border-radius: .25rem;
+    background-color: $layout-color-background;
+  }
+}
+
+#nav-trigger:checked ~ #nav-menu {
+  display: block !important;
+}
+
+#content {
+  h1, h2, h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  blockquote {
+    border-left: 4px solid $layout-color-border;
+    padding-left: 1rem;
+    font-style: italic
+  }
+  .footnotes {
+    text-align: left;
+  }
+}
+
+#rss-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='rgb(134, 142, 150)' d='M119.9,336.1c-30.8,0-55.9,25.1-55.9,55.8c0,30.8,25.1,55.6,55.9,55.6c30.9,0,55.9-24.9,55.9-55.6,C175.8,361.2,150.8,336.1,119.9,336.1z'/%3E%3Cpath fill='rgb(134, 142, 150)' d='M64,192v79.9c48,0,94.1,14.2,128,48.1c33.9,33.9,48,79.9,48,128h80C320,308.1,204,192,64,192z'/%3E%3Cpath fill='rgb(134, 142, 150)' d='M64,64v79.9c171,0,303.9,133,303.9,304.1H448C448,236.3,276,64,64,64z'/%3E%3C/svg%3E")
+}
+
+#site-footer {
+  border-top: 1px solid $layout-color-border;
+}
+
+.highlight pre {
+  border: 1px solid $layout-color-border;
+  border-radius: .25rem;
+  background-color: $layout-color-syntax-highlighting-background;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.btnStyle{
+    background: linear-gradient(228.85deg, #00A0DF 0%, #84b3ff 100%);
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;font:30px bold; padding:1%; 
+    color: white;border: 0px solid ; 
+    text-decoration: none;
+    width: 249px;
+    height: 65px;
+}
+
+.btnStyle:hover{
+    background: linear-gradient(228.85deg, #8269ff 0%, #84b3ff 100%);
+
+}
+
+#textDescription{
+    float: left;
+    width: 100%;
+    text-align: center; 
+
+}
+
+.discriptionCard{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center; 
+    width: 263px;
+    height: 341px;
+    border-radius: 11px;
+}
+
+
+
+#explainationArea{
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 14.16rem;
+}
+
+#reasonArea{
+    width: 350px;
+    float: left;
+}
+
+#privacyCard{
+    background-color: rgba(255, 166, 77, 1);
+    width: 400px;
+    height: 222px ;
+    float: left;
+    margin-left: 4%;
+    border-radius: 11px;
+}
+
+#lyricsCard{
+    background-color: rgba(127, 179, 175, 1);
+    width: 200px;
+    height: 222px ;
+    float: right;
+    border-radius: 11px;
+}
+
+#degitalHealthyCard{
+    background-color: rgba(119, 209, 155, 1);
+    width: 630px;
+    height: 222px ;
+    float: left;
+    border-radius: 11px;
+    margin-top: 3%;
+}
+
+#assistantFuncCard{
+    margin-top: 3%;
+    background-color: rgba(140, 132, 132, 1);
+    width: 350px;
+    height: 222px ;
+    border-radius: 11px;
+    float: right;
+}
