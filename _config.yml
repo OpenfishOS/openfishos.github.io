@@ -15,7 +15,7 @@ minima_reboot:
   date_format_short: "%b %-d"
 
 header_pages:
-- github.md
+
 
 footer_icons:
 - username: OpenfishOS
