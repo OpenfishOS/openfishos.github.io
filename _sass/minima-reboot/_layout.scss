@@ -95,6 +95,7 @@ body {
     width: 263px;
     height: 341px;
     border-radius: 11px;
+    margin: 5px;
 }
 
 
@@ -144,4 +145,28 @@ body {
     height: 222px ;
     border-radius: 11px;
     float: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
