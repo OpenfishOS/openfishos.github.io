@@ -1,5 +1,5 @@
 title: OpenfishOS
-author: Maksym Titenko
+author: Titenko Maksym
 email: titenko.m@gmail.com
 description: >
   OpenfishOS is an elegant, beautiful and easy-to-use Linux desktop operating system. It runs Cutefish Desktop based on Ubuntu and has a modern style design. Our goal is to provide users with a comfortable interface design, better user experience and a better choice.
@@ -21,12 +21,11 @@ header_pages:
 footer_icons:
 - username: OpenfishOS
   url: https://github.com/OpenfishOS
-  icon: openfish-git.png
+  icon: 
 
 paginate: 5
 
 markdown: kramdown
-encoding: utf-8
 
 exclude:
   - Gemfile

@@ -1,5 +1,5 @@
 ---
 title: GitHub
 redirect_to:
-  - https://github.com/OpenfishOS
+  - http://www.github.com/aterenin/minima-reboot/
 ---

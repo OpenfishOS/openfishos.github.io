@@ -3,6 +3,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a style="background: linear-gradient(to left, #06b9ff 0%, #5459ff 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text; text-decoration: none" class="h4 m-0 text-dark" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
     {% if page_paths %}
       <nav id="nav-menu-container" class="text-right navbar-light">
         <input type="checkbox" id="nav-trigger" class="d-none"/>
