@@ -11,16 +11,11 @@
         </label>
 
         <div id="nav-menu" class="d-none d-md-block">
-          <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/index">Home</a>
+          <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/">Home</a>
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/download">Download</a>
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/donate">Donate</a>
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/about">About</a>
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-              <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
+          
         </div>
 
       </nav>
