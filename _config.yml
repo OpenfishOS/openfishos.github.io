@@ -16,7 +16,6 @@ minima_reboot:
 
 header_pages:
 - about.md
-- download.md
 - github.md
 
 footer_icons:
