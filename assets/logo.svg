@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 512 76"
+   width="512"
+   height="76"
+   id="svg9006"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title8973">logo</title>
+  <defs
+     id="defs8980">
+    <linearGradient
+       id="g1"
+       x1="48"
+       y1="35"
+       x2="464"
+       y2="35"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#545aff"
+         id="stop8975" />
+      <stop
+         offset="1"
+         stop-color="#06b9ff"
+         id="stop8977" />
+    </linearGradient>
+  </defs>
+  <style
+     id="style8982">
+		tspan { white-space:pre } 
+		.t0 { font-size: 72px;fill:  url(#g1);font-weight: 400;font-family: &quot;DejaVuSans&quot;, &quot;DejaVu Sans&quot; } 
+	</style>
+  <text
+     id="OpenfishOS"
+     y="4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif"><tspan
+       x="44.400002"
+       y="58.700001"
+       class="t0"
+       id="tspan8984"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif">OpenfishOS</tspan></text>
+  <g
+     id="layer1" />
+  <metadata
+     id="metadata9065">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
