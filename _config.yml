@@ -16,12 +16,13 @@ minima_reboot:
 
 header_pages:
 - about.md
+- download.md
 - github.md
 
 footer_icons:
 - username: OpenfishOS
   url: https://github.com/OpenfishOS
-  icon: 
+  icon: icon-github.svg
 
 paginate: 5
 
