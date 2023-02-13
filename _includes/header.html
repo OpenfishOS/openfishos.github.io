@@ -2,7 +2,7 @@
   <div id="nav-container" class="container position-relative d-flex justify-content-between align-items-center">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a style="background: linear-gradient(to left, #06b9ff 0%, #5459ff 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text; text-decoration: none" class="h4 m-0 text-dark" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a style="background: linear-gradient(to left, #06b9ff 0%, #5459ff 100%); -webkit-text-fill-color: transparent; -webkit-background-clip: text; text-decoration: none; font-family: ubuntu;" class="h4 m-0 text-dark" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {% if page_paths %}
       <nav id="nav-menu-container" class="text-right navbar-light">
@@ -10,7 +10,7 @@
         <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block d-md-none navbar-toggler-icon">
         </label>
 
-        <div id="nav-menu" class="d-none d-md-block">
+        <div style="font-family: ubuntu;" id="nav-menu" class="d-none d-md-block">
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/">Home</a>
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/download">Download</a>
           <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="/donate">Donate</a>
