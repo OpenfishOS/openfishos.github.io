@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1372"
+   sodipodi:docname="website_icon.svg?4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1374"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <defs
+     id="defs1367">
+    <linearGradient
+       x1="8"
+       y1="0"
+       x2="8"
+       y2="16"
+       id="linearGradient-1"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#38AEEB"
+         offset="0%"
+         id="stop1362" />
+      <stop
+         stop-color="#279AD1"
+         offset="100%"
+         id="stop1364" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Artboard"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <circle
+       id="Oval"
+       fill="url(#linearGradient-1)"
+       cx="8"
+       cy="8"
+       r="8"
+       style="fill:url(#linearGradient-1)" />
+    <path
+       d="M 3.1702617,7.836356 C 5.787502,6.74266 7.5327388,6.0216286 8.4059721,5.6732619 10.899231,4.6786042 11.245454,4.5343919 11.58313,4.5286496 c 0.07427,-0.00122 0.255412,0.029111 0.396714,0.1478087 0.141302,0.1186979 0.183735,0.1956085 0.195693,0.2626286 0.01196,0.06702 0.01074,0.2754807 -0.0011,0.3947754 -0.135111,1.3616105 -0.648505,4.5044354 -0.945927,6.0294627 -0.12585,0.645296 -0.373654,0.86166 -0.613556,0.882835 C 10.093592,12.292176 9.6976927,11.915685 9.1927267,11.598199 8.4025546,11.101397 8.1391173,10.918016 7.3721185,10.433228 6.4857186,9.8729722 6.8508003,9.6784879 7.355957,9.1752498 7.4881589,9.04355 9.6782508,7.0459007 9.7107705,6.8625018 9.7391276,6.7025781 9.7494847,6.6818939 9.6766406,6.6097396 9.6037966,6.5375853 9.5167419,6.5465894 9.4608315,6.5587605 9.3815802,6.5760127 8.1752184,7.3396269 5.8417461,8.8496031 5.4834436,9.0855878 5.1589043,9.2005674 4.8681282,9.1945421 4.5475709,9.1878996 3.9309472,9.0207001 3.4725509,8.8777822 2.9103092,8.7024876 2.4634507,8.609808 2.502362,8.3121034 2.5226295,8.1570405 2.7452627,7.998458 3.1702617,7.836356 Z"
+       id="Path-3"
+       fill="#ffffff" />
+  </g>
+</svg>
