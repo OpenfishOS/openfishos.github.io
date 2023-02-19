@@ -9,6 +9,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap  
 
 minima_reboot:
   date_format: "%b %-d, %Y"
